@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "villagerworkers",
+  "version": "${version}",
+  "name": "Villager Workers",
+  "description": "Give villagers a pickaxe, axe, hoe or fishing rod and they will mine ore, chop trees, harvest crops or fish.",
+  "authors": [],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.example.villagerworkers.VillagerWorkersMod"]
+  },
+  "accessWidener": "villagerworkers.accesswidener",
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

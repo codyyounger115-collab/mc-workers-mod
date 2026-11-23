@@ -1,0 +1,4 @@
+accessWidener v2 named
+
+# Lets us add our own goals to a villager's goal selector.
+accessible field net/minecraft/world/entity/Mob goalSelector Lnet/minecraft/world/entity/ai/goal/GoalSelector;
